@@ -3,11 +3,11 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "practice_bucket" {
-  bucket = var.bucket_name
+  bucket        = var.bucket_name
   force_destroy = true
 
   tags = {
     Environment = "feature"
-    CreatedBy   = "Terraform"
+    CreatedBy   = "Terraformtest"
   }
 }
