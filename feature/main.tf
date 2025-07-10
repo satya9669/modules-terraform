@@ -8,6 +8,6 @@ resource "aws_s3_bucket" "practice_bucket" {
 
   tags = {
     Environment = "feature"
-    CreatedBy   = "Terraform"
+    CreatedBy   = "Terraformtest"
   }
 }
